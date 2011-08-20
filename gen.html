@@ -27,10 +27,10 @@ C:\> .\cp932_to_utf16.exe > <a href="result/cp932_to_utf16-win32-windows7.txt">c
       <pre>$ perl5.10.1 <a href="utf16_to_cp932.pl">utf16_to_cp932.pl</a> > <a href="result/utf16_to_cp932-perl_5.10.1-macports_1.8.2.txt">result/utf16_to_cp932-perl_5.10.1-macports_1.8.2.txt</a>
 $ perl5.10.1 <a href="cp932_to_utf16.pl">cp932_to_utf16.pl</a> > <a href="result/cp932_to_utf16-perl_5.10.1-macports_1.8.2.txt">result/cp932_to_utf16-perl_5.10.1-macports_1.8.2.txt</a></pre>
   </dd>
-  <dt>Ruby 1.9.1_p376</dt>
+  <dt>Ruby 1.9.2p290</dt>
   <dd>
-      <pre>$ ruby1.9 <a href="utf16_to_cp932.rb">utf16_to_cp932.rb</a> > <a href="result/utf16_to_cp932-ruby_1.9.1p376-macports_1.8.2.txt">result/utf16_to_cp932-ruby_1.9.1p376-macports_1.8.2.txt</a>
-$ ruby1.9 <a href="cp932_to_utf16.rb">cp932_to_utf16.rb</a> > <a href="result/cp932_to_utf16-ruby_1.9.1p376-macports_1.8.2.txt">result/cp932_to_utf16-ruby_1.9.1p376-macports_1.8.2.txt</a></pre>
+      <pre>$ ruby1.9 <a href="utf16_to_cp932.rb">utf16_to_cp932.rb</a> > <a href="result/utf16_to_cp932-ruby_1.9.2p290-osx_10.7.1.txt">result/utf16_to_cp932-ruby_1.9.2p290-osx_10.7.1.txt</a>
+$ ruby1.9 <a href="cp932_to_utf16.rb">cp932_to_utf16.rb</a> > <a href="result/cp932_to_utf16-ruby_1.9.2p290-osx_10.7.1.txt">result/cp932_to_utf16-ruby_1.9.2p290-osx_10.7.1.txt</a></pre>
   </dd>
   <dt>glibc 2.7</dt>
   <dd>
@@ -48,12 +48,12 @@ $ g++ <a href="cp932_to_utf16-libiconv.cpp">cp932_to_utf16-libiconv.cpp</a>
 $ ./a.out > <a href="result/cp932_to_utf16-eglibc_2.10.1-ubuntu_9.10.txt">result/cp932_to_utf16-eglibc_2.10.1-ubuntu_9.10.txt</a></pre>
       <p>This table was generated on Ubuntu 9.10 that uses eglibc 2.10.1.</p>
   </dd>
-  <dt>Java 1.6.0_17</dt>
+  <dt>Java 1.6.0_26</dt>
   <dd>
       <pre>$ javac <a href="utf16_to_cp932.java">utf16_to_cp932.java</a>
-$ java utf16_to_cp932 > <a href="result/utf16_to_cp932-java_1.6.0_17-osx_10.6.2.txt">result/utf16_to_cp932-java_1.6.0_17-osx_10.6.2.txt</a>
+$ java utf16_to_cp932 > <a href="result/utf16_to_cp932-java_1.6.0_26-osx_10.7.1.txt">result/utf16_to_cp932-java_1.6.0_26-osx_10.7.1.txt</a>
 $ javac <a href="cp932_to_utf16.java">cp932_to_utf16.java</a>
-$ java cp932_to_utf16 > <a href="result/cp932_to_utf16-java_1.6.0_17-osx_10.6.2.txt">result/cp932_to_utf16-java_1.6.0_17-osx_10.6.2.txt</a></pre>
+$ java cp932_to_utf16 > <a href="result/cp932_to_utf16-java_1.6.0_26-osx_10.7.1.txt">result/cp932_to_utf16-java_1.6.0_26-osx_10.7.1.txt</a></pre>
   </dd>
   <dt>libiconv</dt>
   <dd>
@@ -108,10 +108,10 @@ $ ./a.out > <a href="result/cp932_to_utf16-apriconv_1.2.1+cp932_patch2.txt">resu
   <dt>Python</dt>
   <dd>
       <dl>
-	<dt>Python 2.6.4</dt>
+	<dt>Python 2.7.1</dt>
 	<dd>
-	    <pre>$ python2.6 <a href="utf16_to_cp932.py">utf16_to_cp932.py</a> > <a href="result/utf16_to_cp932-python_2.6.4-macports_1.8.2.txt">result/utf16_to_cp932-python_2.6.4-macports_1.8.2.txt</a>
-$ python2.6 <a href="cp932_to_utf16.py">cp932_to_utf16.py</a> > <a href="result/cp932_to_utf16-python_2.6.4-macports_1.8.2.txt">result/cp932_to_utf16-python_2.6.4-macports_1.8.2.txt</a></pre>
+	    <pre>$ python2.7 <a href="utf16_to_cp932.py">utf16_to_cp932.py</a> > <a href="result/utf16_to_cp932-python_2.7.1-osx_10.7.1.txt">result/utf16_to_cp932-python_2.7.1-osx_10.7.1.txt</a>
+$ python2.7 <a href="cp932_to_utf16.py">cp932_to_utf16.py</a> > <a href="result/cp932_to_utf16-python_2.7.1-osx_10.7.1.txt">result/cp932_to_utf16-python_2.7.1-osx_10.7.1.txt</a></pre>
 	</dd>
 	<dt>Python 2.7a3 + cp932 patch</dt>
 	<dd>
@@ -128,15 +128,10 @@ $ python2.6 <a href="cp932_to_utf16.py">cp932_to_utf16.py</a> > <a href="result/
   <dt>PHP</dt>
   <dd>
       <dl>
-	<dt>PHP 5.3.0 (mb_convert)</dt>
+	<dt>PHP 5.3.6 (mb_convert)</dt>
 	<dd>
-	    <pre>$ /usr/bin/php <a href="utf16_to_cp932.php">utf16_to_cp932.php</a> > <a href="result/utf16_to_cp932-php_5.3.0-osx_10.6.2.txt">result/utf16_to_cp932-php_5.3.0-osx_10.6.2.txt</a>
-$ /usr/bin/php <a href="cp932_to_utf16.php">cp932_to_utf16.php</a> > <a href="result/cp932_to_utf16-php_5.3.0-osx_10.6.2.txt">result/cp932_to_utf16-php_5.3.0-osx_10.6.2.txt</a></pre>
-	</dd>
-	<dt>PHP 5.3.3 (mb_convert)</dt>
-	<dd>
-	    <pre>$ /opt/local/bin/php <a href="utf16_to_cp932.php">utf16_to_cp932.php</a> > <a href="result/utf16_to_cp932-php_5.3.3-macports_10.6.4.txt">result/utf16_to_cp932-php_5.3.3-macports_10.6.4.txt</a>
-$ /opt/local/bin/php <a href="cp932_to_utf16.php">cp932_to_utf16.php</a> > <a href="result/cp932_to_utf16-php_5.3.3-macports_10.6.4.txt">result/cp932_to_utf16-php_5.3.3-macports_10.6.4.txt</a></pre>
+	    <pre>$ /usr/bin/php <a href="utf16_to_cp932.php">utf16_to_cp932.php</a> > <a href="result/utf16_to_cp932-php_5.3.6-osx_10.7.1.txt">result/utf16_to_cp932-php_5.3.6-osx_10.7.1.txt</a>
+$ /usr/bin/php <a href="cp932_to_utf16.php">cp932_to_utf16.php</a> > <a href="result/cp932_to_utf16-php_5.3.6-osx_10.7.1.txt">result/cp932_to_utf16-php_5.3.6-osx_10.7.1.txt</a></pre>
 	</dd>
       </dl>
   </dd>
