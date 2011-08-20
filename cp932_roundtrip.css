@@ -1,0 +1,78 @@
+body {
+    background-color: white;
+}
+table {
+    border-collapse: collapse;
+    margin: 1em;
+}
+.header {
+    text-align: right;
+    font-size: small;
+    margin: 0em 1em 0em 1em;
+}
+th, td {
+    border: 1px solid black;
+    padding: 0.1ex 0.5em 0.1ex 0.5em;
+    text-align: center;
+    font-size: medium;
+    color: black;
+}
+th {
+    background-color: #dddddd;
+}
+.app {
+    font-size: x-small;
+}
+.unicode {
+    font-family: monospace;
+}
+.invalid-begin {
+    border-left-width: 3pt;
+}
+#cp932-to-unicode .unicode {
+    border-right: none;
+}
+.char {
+    text-align: center;
+}
+#cp932-to-unicode .char {
+    padding-left: 0px;
+    border-left: none;
+}
+.name {
+    text-align: left;
+    font-size: x-small;
+}
+.cp932 {
+    font-family: monospace;
+    text-align: right;
+}
+.noconv {
+    text-align: center;
+}
+.nec {
+    background-color: #aaffaa;
+}
+.nec-ibm {
+    background-color: #aaffff;
+}
+.ibm {
+    background-color: #aaaaff;
+}
+.private-use-area {
+    color: white;
+    background-color: #444444;
+}
+.ne-reference {
+    color: red;
+    border-color: black
+}
+th.reference-end, td.reference-end {
+    border-right-width: 3pt;
+}
+dl {
+    margin: 1em;
+}
+dt {
+    font-weight: bold;
+}

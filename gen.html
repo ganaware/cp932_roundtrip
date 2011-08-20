@@ -1,0 +1,154 @@
+<h2>How to generate tables?</h2>
+
+<dl>
+  <dt>Win32</dt>
+  <dd>
+      <dl>
+	<dt>Win32 with WC_NO_BEST_FIT_CHARS (Unicode to CP932)</dt>
+	<dd>
+	    <pre>C:\> cl <a href="utf16_to_cp932-win32.cpp">utf16_to_cp932-win32.cpp</a>
+C:\> .\utf16_to_cp932-win32.exe --wnbfc > <a href="result/utf16_to_cp932-win32_wnbfc-windows7.txt">result/utf16_to_cp932-win32_wnbfc-windows7.txt</a></pre>
+	</dd>
+	<dt>Win32 without WC_NO_BEST_FIT_CHARS (Unicode to CP932)</dt>
+	<dd>
+	    <pre>C:\> cl <a href="utf16_to_cp932-win32.cpp">utf16_to_cp932-win32.cpp</a>
+C:\> .\utf16_to_cp932-win32.exe > <a href="result/utf16_to_cp932-win32-windows7.txt">result/utf16_to_cp932-win32-windows7.txt</a></pre>
+	</dd>
+	<dt>Win32 (CP932 to Unicode)</dt>
+	<dd>
+	    <pre>C:\> cl <a href="cp932_to_utf16-win32.cpp">cp932_to_utf16-win32.cpp</a>
+C:\> .\cp932_to_utf16.exe > <a href="result/cp932_to_utf16-win32-windows7.txt">cp932_to_utf16-win32-windows7.txt</a></pre>
+	</dd>
+      </dl>
+      <p>Both Visual C++ 2008 Express Edition and Cygwin g++ can compile them.</p>
+  </dd>
+  <dt>Perl 5.10.1</dt>
+  <dd>
+      <pre>$ perl5.10.1 <a href="utf16_to_cp932.pl">utf16_to_cp932.pl</a> > <a href="result/utf16_to_cp932-perl_5.10.1-macports_1.8.2.txt">result/utf16_to_cp932-perl_5.10.1-macports_1.8.2.txt</a>
+$ perl5.10.1 <a href="cp932_to_utf16.pl">cp932_to_utf16.pl</a> > <a href="result/cp932_to_utf16-perl_5.10.1-macports_1.8.2.txt">result/cp932_to_utf16-perl_5.10.1-macports_1.8.2.txt</a></pre>
+  </dd>
+  <dt>Ruby 1.9.1_p376</dt>
+  <dd>
+      <pre>$ ruby1.9 <a href="utf16_to_cp932.rb">utf16_to_cp932.rb</a> > <a href="result/utf16_to_cp932-ruby_1.9.1p376-macports_1.8.2.txt">result/utf16_to_cp932-ruby_1.9.1p376-macports_1.8.2.txt</a>
+$ ruby1.9 <a href="cp932_to_utf16.rb">cp932_to_utf16.rb</a> > <a href="result/cp932_to_utf16-ruby_1.9.1p376-macports_1.8.2.txt">result/cp932_to_utf16-ruby_1.9.1p376-macports_1.8.2.txt</a></pre>
+  </dd>
+  <dt>glibc 2.7</dt>
+  <dd>
+      <pre>$ g++ <a href="utf16_to_cp932-libiconv.cpp">utf16_to_cp932-libiconv.cpp</a>
+$ ./a.out > <a href="result/utf16_to_cp932-glibc_2.7-ubuntu_8.04_japanese.txt">result/utf16_to_cp932-glibc_2.7-ubuntu_8.04_japanese.txt</a>
+$ g++ <a href="cp932_to_utf16-libiconv.cpp">cp932_to_utf16-libiconv.cpp</a>
+$ ./a.out > <a href="result/cp932_to_utf16-glibc_2.7-ubuntu_8.04_japanese.txt">result/cp932_to_utf16-glibc_2.7-ubuntu_8.04_japanese.txt</a></pre>
+      <p>This table was generated on Ubuntu 8.04 (Japanese) that uses glibc 2.7.</p>
+  </dd>
+  <dt>eglibc 2.10.1</dt>
+  <dd>
+      <pre>$ g++ <a href="utf16_to_cp932-libiconv.cpp">utf16_to_cp932-libiconv.cpp</a>
+$ ./a.out > <a href="result/utf16_to_cp932-eglibc_2.10.1-ubuntu_9.10.txt">result/utf16_to_cp932-eglibc_2.10.1-ubuntu_9.10.txt</a>
+$ g++ <a href="cp932_to_utf16-libiconv.cpp">cp932_to_utf16-libiconv.cpp</a>
+$ ./a.out > <a href="result/cp932_to_utf16-eglibc_2.10.1-ubuntu_9.10.txt">result/cp932_to_utf16-eglibc_2.10.1-ubuntu_9.10.txt</a></pre>
+      <p>This table was generated on Ubuntu 9.10 that uses eglibc 2.10.1.</p>
+  </dd>
+  <dt>Java 1.6.0_17</dt>
+  <dd>
+      <pre>$ javac <a href="utf16_to_cp932.java">utf16_to_cp932.java</a>
+$ java utf16_to_cp932 > <a href="result/utf16_to_cp932-java_1.6.0_17-osx_10.6.2.txt">result/utf16_to_cp932-java_1.6.0_17-osx_10.6.2.txt</a>
+$ javac <a href="cp932_to_utf16.java">cp932_to_utf16.java</a>
+$ java cp932_to_utf16 > <a href="result/cp932_to_utf16-java_1.6.0_17-osx_10.6.2.txt">result/cp932_to_utf16-java_1.6.0_17-osx_10.6.2.txt</a></pre>
+  </dd>
+  <dt>libiconv</dt>
+  <dd>
+      <dl>
+	<dt>libiconv 1.13.1</dt>
+	<dd>
+	    <pre>$ g++ <a href="utf16_to_cp932-libiconv.cpp">utf16_to_cp932-libiconv.cpp</a> -liconv
+$ ./a.out > <a href="result/utf16_to_cp932-libiconv_1.13.1_0-macports_1.8.2.txt">result/utf16_to_cp932-libiconv_1.13.1_0-macports_1.8.2.txt</a>
+$ g++ <a href="cp932_to_utf16-libiconv.cpp">cp932_to_utf16-libiconv.cpp</a> -liconv
+$ ./a.out > <a href="result/cp932_to_utf16-libiconv_1.13.1_0-macports_1.8.2.txt">result/cp932_to_utf16-libiconv_1.13.1_0-macports_1.8.2.txt</a></pre>
+	</dd>
+	<dt>libiconv 1.13.1 + cp932 patch</dt>
+	<dd>
+	    <p>First, install libiconv with <a href="http://www2d.biglobe.ne.jp/~msyk/software/libiconv-1.13-cp932-patch.html">cp932-patch</a>.  If you are using macports, install libiconv with +enable_cp932fix variant.</p>
+	    <pre>$ g++ <a href="utf16_to_cp932-libiconv.cpp">utf16_to_cp932-libiconv.cpp</a> -liconv
+$ ./a.out > <a href="result/utf16_to_cp932-libiconv_1.13.1_0+enable_cp932fix-macports_1.8.2.txt">result/utf16_to_cp932-libiconv_1.13.1_0+enable_cp932fix-macports_1.8.2.txt</a>
+$ g++ <a href="cp932_to_utf16-libiconv.cpp">cp932_to_utf16-libiconv.cpp</a> -liconv
+$ ./a.out > <a href="result/cp932_to_utf16-libiconv_1.13.1_0+enable_cp932fix-macports_1.8.2.txt">result/cp932_to_utf16-libiconv_1.13.1_0+enable_cp932fix-macports_1.8.2.txt</a></pre>
+	</dd>
+      </dl>
+  </dd>
+  <dt>apr-iconv</dt>
+  <dd>
+      <p>The include path (<code>-I/opt/local/include/apr-1/</code>) and the library path (<code>-L/opt/local/lib/</code>) may be different on your system.</p>
+      <dl>
+	<dt>apr-iconv 1.2.1</dt>
+	<dd>
+	    <p>First, install APR and APR-iconv.</p>
+	    <pre>$ g++ -I/opt/local/include/apr-1/ -L/opt/local/lib/ -lapriconv-1 -lapr-1 <a href="utf16_to_cp932-apriconv.cpp">utf16_to_cp932-apriconv.cpp</a>
+$ ./a.out > <a href="result/utf16_to_cp932-apriconv_1.2.1.txt">result/utf16_to_cp932-apriconv_1.2.1.txt</a>
+$ g++ -I/opt/local/include/apr-1/ -L/opt/local/lib/ -lapriconv-1 -lapr-1 <a href="cp932_to_utf16-apriconv.cpp">cp932_to_utf16-apriconv.cpp</a>
+$ ./a.out > <a href="result/cp932_to_utf16-apriconv_1.2.1.txt">result/cp932_to_utf16-apriconv_1.2.1.txt</a></pre>
+	</dd>
+	<dt>apr-iconv 1.2.1 + cp932 patch</dt>
+	<dd>
+	    <p>First, install APR and APR-iconv with <a href="apr-iconv-1.2.1-cp932-patch.txt">cp932 patch</a> that created by me.</p>
+	    <pre>$ g++ -I/opt/local/include/apr-1/ -L/opt/local/lib/ -lapriconv-1 -lapr-1 <a href="utf16_to_cp932-apriconv.cpp">utf16_to_cp932-apriconv.cpp</a>
+$ ./a.out > <a href="result/utf16_to_cp932-apriconv_1.2.1+cp932_patch.txt">result/utf16_to_cp932-apriconv_1.2.1+cp932_patch.txt</a>
+$ g++ -I/opt/local/include/apr-1/ -L/opt/local/lib/ -lapriconv-1 -lapr-1 <a href="cp932_to_utf16-apriconv.cpp">cp932_to_utf16-apriconv.cpp</a>
+$ ./a.out > <a href="result/cp932_to_utf16-apriconv_1.2.1+cp932_patch.txt">result/cp932_to_utf16-apriconv_1.2.1+cp932_patch.txt</a></pre>
+	</dd>
+	<dt>apr-iconv 1.2.1 + cp932 patch2</dt>
+	<dd>
+	    <p>First, install APR and APR-iconv with <a href="apr-iconv-1.2.1-cp932-patch2.txt">cp932 patch2</a> that created by me.</p>
+	    <pre>$ g++ -I/opt/local/include/apr-1/ -L/opt/local/lib/ -lapriconv-1 -lapr-1 <a href="utf16_to_cp932-apriconv.cpp">utf16_to_cp932-apriconv.cpp</a>
+$ ./a.out > <a href="result/utf16_to_cp932-apriconv_1.2.1+cp932_patch2.txt">result/utf16_to_cp932-apriconv_1.2.1+cp932_patch2.txt</a>
+$ g++ -I/opt/local/include/apr-1/ -L/opt/local/lib/ -lapriconv-1 -lapr-1 <a href="cp932_to_utf16-apriconv.cpp">cp932_to_utf16-apriconv.cpp</a>
+$ ./a.out > <a href="result/cp932_to_utf16-apriconv_1.2.1+cp932_patch2.txt">result/cp932_to_utf16-apriconv_1.2.1+cp932_patch2.txt</a></pre>
+	</dd>
+      </dl>
+  </dd>
+  <dt>Python</dt>
+  <dd>
+      <dl>
+	<dt>Python 2.6.4</dt>
+	<dd>
+	    <pre>$ python2.6 <a href="utf16_to_cp932.py">utf16_to_cp932.py</a> > <a href="result/utf16_to_cp932-python_2.6.4-macports_1.8.2.txt">result/utf16_to_cp932-python_2.6.4-macports_1.8.2.txt</a>
+$ python2.6 <a href="cp932_to_utf16.py">cp932_to_utf16.py</a> > <a href="result/cp932_to_utf16-python_2.6.4-macports_1.8.2.txt">result/cp932_to_utf16-python_2.6.4-macports_1.8.2.txt</a></pre>
+	</dd>
+	<dt>Python 2.7a3 + cp932 patch</dt>
+	<dd>
+	    <p>First, install Python 2.7a3 with <a href="Python-2.7a3-cp932-patch.txt">cp932 patch</a> that created by me.</p>
+	    <pre>$ python2.7 <a href="utf16_to_cp932.py">utf16_to_cp932.py</a> > <a href="result/utf16_to_cp932-python_2.7a3+cp932_patch.txt">result/utf16_to_cp932-python_2.7a3+cp932_patch.txt</a></pre>
+	</dd>
+	<dt>Python 2.7a3 + cp932 patch2</dt>
+	<dd>
+	    <p>First, install Python 2.7a3 with <a href="Python-2.7a3-cp932-patch2.txt">cp932 patch2</a> that created by me.</p>
+	    <pre>$ python2.7 <a href="utf16_to_cp932.py">utf16_to_cp932.py</a> > <a href="result/utf16_to_cp932-python_2.7a3+cp932_patch2.txt">result/utf16_to_cp932-python_2.7a3+cp932_patch2.txt</a></pre>
+	</dd>
+      </dl>
+  </dd>
+  <dt>PHP</dt>
+  <dd>
+      <dl>
+	<dt>PHP 5.3.0 (mb_convert)</dt>
+	<dd>
+	    <pre>$ /usr/bin/php <a href="utf16_to_cp932.php">utf16_to_cp932.php</a> > <a href="result/utf16_to_cp932-php_5.3.0-osx_10.6.2.txt">result/utf16_to_cp932-php_5.3.0-osx_10.6.2.txt</a>
+$ /usr/bin/php <a href="cp932_to_utf16.php">cp932_to_utf16.php</a> > <a href="result/cp932_to_utf16-php_5.3.0-osx_10.6.2.txt">result/cp932_to_utf16-php_5.3.0-osx_10.6.2.txt</a></pre>
+	</dd>
+	<dt>PHP 5.3.3 (mb_convert)</dt>
+	<dd>
+	    <pre>$ /opt/local/bin/php <a href="utf16_to_cp932.php">utf16_to_cp932.php</a> > <a href="result/utf16_to_cp932-php_5.3.3-macports_10.6.4.txt">result/utf16_to_cp932-php_5.3.3-macports_10.6.4.txt</a>
+$ /opt/local/bin/php <a href="cp932_to_utf16.php">cp932_to_utf16.php</a> > <a href="result/cp932_to_utf16-php_5.3.3-macports_10.6.4.txt">result/cp932_to_utf16-php_5.3.3-macports_10.6.4.txt</a></pre>
+	</dd>
+      </dl>
+  </dd>
+  <dt>cp932_roundtrip.html</dt>
+  <dd>
+      <pre>$ ruby1.9 <a href="cp932_roundtrip.rb">cp932_roundtrip.rb</a> > <a href="cp932_roundtrip.html">cp932_roundtrip.html</a></pre>
+      <p>cp932_roundtrip.rb uses <code>result/*.txt<code>, <code><a href="UnicodeData.txt">UnicodeData.txt</a> (obtained from <a href="http://www.unicode.org/Public/5.2.0/ucd/UnicodeData.txt">unicode.org</a>), <a href="gen.html">gen.html</a>.
+  </dd>
+</dl>
+
+<h2>References</h2>
+
+<ul>
+  <li><a href="http://support.microsoft.com/default.aspx?scid=kb;en-us;Q170559">PRB: Conversion Problem Between Shift-JIS and Unicode</a>
+</ul>
