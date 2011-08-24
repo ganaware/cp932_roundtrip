@@ -1,52 +1,50 @@
-diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Modules/cjkcodecs/mappings_jp.h
-*** Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h	2006-03-05 01:08:19.000000000 +0900
---- Python-2.7a3/Modules/cjkcodecs/mappings_jp.h	2010-02-22 01:25:24.000000000 +0900
+diff -c -r Python-2.7.2.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7.2/Modules/cjkcodecs/mappings_jp.h
+*** Python-2.7.2.orig/Modules/cjkcodecs/mappings_jp.h	2011-06-12 00:46:27.000000000 +0900
+--- Python-2.7.2/Modules/cjkcodecs/mappings_jp.h	2011-08-24 22:06:36.000000000 +0900
 ***************
-*** 2540,2868 ****
-  __cp932ext_decmap+957,64,75},{0,0,0},{0,0,0},{0,0,0},
-  };
-  
-! static const DBCHAR __cp932ext_encmap[9686] = {
-! 34690,N,N,N,N,N,N,N,N,N,N,34692,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+*** 2543,2550 ****
+  static const DBCHAR __cp932ext_encmap[9686] = {
+  34690,N,N,N,N,N,N,N,N,N,N,34692,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! 34644,34645,34646,34647,34648,34649,34650,34651,34652,34653,N,N,N,N,N,N,61167,
 ! 61168,61169,61170,61171,61172,61173,61174,61175,61176,34708,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,34712,N,N,N,N,N,33121,N,N,N,N,N,N,N,N,34707,N,N,N,N,N,N,N,N,N,N,N,N,N,
+  N,N,N,N,34712,N,N,N,N,N,33121,N,N,N,N,N,N,N,N,34707,N,N,N,N,N,N,N,N,N,N,N,N,N,
+  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+--- 2543,2550 ----
+  static const DBCHAR __cp932ext_encmap[9686] = {
+  34690,N,N,N,N,N,N,N,N,N,N,34692,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! 34644,34645,34646,34647,34648,34649,34650,34651,34652,34653,N,N,N,N,N,N,64064,
+! 64065,64066,64067,64068,64069,64070,64071,64072,64073,34708,N,N,N,N,N,N,N,N,N,
+  N,N,N,N,34712,N,N,N,N,N,33121,N,N,N,N,N,N,N,N,34707,N,N,N,N,N,N,N,N,N,N,N,N,N,
+  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+***************
+*** 2561,2829 ****
+  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,34686,34703,34702,34701,N,N,N,
+  N,N,N,N,N,N,N,N,N,N,N,N,34674,34675,N,N,N,N,N,N,N,N,N,N,N,N,34671,34672,34673,
+  N,N,34677,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! 34676,N,N,N,N,N,N,N,N,34691,60748,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,34713,34624,34625,34626,34627,34628,34629,34630,
-- 34631,34632,34633,34634,34635,34636,34637,34638,34639,34640,34641,34642,34643,
-- 34688,N,34689,34698,34699,N,N,N,N,N,N,34700,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,60749,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60750,
+! 60751,N,N,60752,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60753,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,60754,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60756,N,N,N,N,N,N,N,
+! 60755,N,60758,N,N,N,N,N,60757,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60741,N,N,N,60759,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,34693,34694,34695,34696,34697,34661,N,N,N,N,N,N,N,N,N,
-- 34665,N,N,N,N,N,N,34656,N,N,N,34659,N,N,N,N,N,N,N,N,N,34657,34667,N,N,34666,
-- 34660,N,N,N,34668,N,N,N,N,N,N,N,N,N,N,34662,N,N,N,N,34670,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,34655,34669,N,N,34658,N,N,N,34663,N,N,N,N,N,34664,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,34686,34703,34702,34701,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,34674,34675,N,N,N,N,N,N,N,N,N,N,N,N,34671,34672,34673,
-- N,N,34677,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- 34676,N,N,N,N,N,N,N,N,34691,60748,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,60762,60763,N,N,N,60761,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,60760,N,60766,N,N,N,60764,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60765,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60767,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,60749,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60750,
-- 60751,N,N,60752,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60753,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,60754,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60756,N,N,N,N,N,N,N,
-- 60755,N,60758,N,N,N,N,N,60757,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60741,N,N,N,60759,N,N,N,N,N,N,N,N,
-  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,60762,60763,N,N,N,60761,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,60760,N,60766,N,N,N,60764,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60765,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60767,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,60769,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,60768,60770,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60771,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,60769,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,60768,60770,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60771,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,60772,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,60773,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
@@ -59,11 +57,11 @@ diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Module
 ! 60780,N,N,N,N,N,N,60781,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,60782,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,60783,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- 60784,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60785,N,N,N,
+! N,N,N,60783,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! 60784,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60785,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- 60786,60789,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60788,N,N,N,N,N,N,N,N,N,N,N,N,
-- 60790,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! 60786,60789,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60788,N,N,N,N,N,N,N,N,N,N,N,N,
+! 60790,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,60791,60792,60793,N,N,N,N,N,N,N,N,N,N,N,60794,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
@@ -92,10 +90,10 @@ diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Module
 ! N,N,N,N,N,N,60828,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60747,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60829,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60830,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60831,60832,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60833,N,N,
-- N,N,60834,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60830,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60831,60832,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60833,N,N,
+! N,N,60834,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,60836,N,N,N,N,N,N,N,N,60835,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60838,
 ! 60839,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60837,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60841,N,
@@ -107,16 +105,16 @@ diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Module
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60844,60845,60846,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,60847,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60848,60849,60850,N,N,N,N,N,
-- N,N,N,60853,N,N,N,N,N,N,N,N,N,N,N,60851,N,N,N,N,N,N,N,N,60855,N,N,N,N,N,60856,
-- N,N,N,N,N,N,N,N,N,60854,N,N,60743,N,N,N,N,N,N,N,N,N,60852,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60858,N,60859,N,N,N,N,N,N,N,N,N,N,N,60857,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,60861,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,60862,N,N,N,N,N,N,60863,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,60864,N,N,N,N,N,N,N,N,N,N,N,N,60865,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,60847,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60848,60849,60850,N,N,N,N,N,
+! N,N,N,60853,N,N,N,N,N,N,N,N,N,N,N,60851,N,N,N,N,N,N,N,N,60855,N,N,N,N,N,60856,
+! N,N,N,N,N,N,N,N,N,60854,N,N,60743,N,N,N,N,N,N,N,N,N,60852,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60858,N,60859,N,N,N,N,N,N,N,N,N,N,N,60857,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,60861,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,60862,N,N,N,N,N,N,60863,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,60864,N,N,N,N,N,N,N,N,N,N,N,N,60865,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,60866,60746,60867,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,60866,60746,60867,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60869,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
@@ -134,10 +132,10 @@ diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Module
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60882,N,N,N,N,N,N,N,60884,N,N,N,N,N,N,N,
 ! N,N,N,60885,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60886,N,60887,60888,
-- 60889,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60890,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,60892,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- 60891,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60886,N,60887,60888,
+! 60889,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60890,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,60892,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! 60891,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,60893,60894,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
@@ -150,15 +148,15 @@ diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Module
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60904,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,60907,60908,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60909,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,60907,60908,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60909,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,60910,60911,N,60912,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,60913,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60914,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60915,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,60742,60917,N,N,N,N,N,N,N,N,N,N,60916,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60914,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60915,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,60742,60917,N,N,N,N,N,N,N,N,N,N,60916,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,60919,60920,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60918,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
@@ -167,7 +165,7 @@ diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Module
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! 60923,60924,N,N,N,N,N,N,N,N,N,N,N,N,60992,60993,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-- N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60995,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60995,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,60996,N,N,N,N,N,N,N,N,N,N,N,60997,
 ! N,N,N,N,N,N,N,N,61000,N,N,N,60998,N,N,N,N,N,N,N,N,N,N,N,N,60999,N,N,N,N,N,N,N,
@@ -285,130 +283,65 @@ diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Module
   static const struct unim_index cp932ext_encmap[256] = {
   {0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0
   },{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,
-! 0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{
+  0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{
 ! 0,0,0},{0,0,0},{0,0,0},{0,0,0},{__cp932ext_encmap+0,22,121},{__cp932ext_encmap
 ! +100,17,191},{0,0,0},{__cp932ext_encmap+275,96,115},{0,0,0},{0,0,0},{0,0,0},{
 ! 0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{
 ! __cp932ext_encmap+295,29,31},{0,0,0},{__cp932ext_encmap+298,49,168},{
-! __cp932ext_encmap+418,3,205},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{
-! 0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0
-! },{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,
-! 0,0},{__cp932ext_encmap+621,40,252},{__cp932ext_encmap+834,0,255},{
-! __cp932ext_encmap+1090,30,244},{__cp932ext_encmap+1305,74,236},{
-! __cp932ext_encmap+1468,21,219},{__cp932ext_encmap+1667,0,221},{
-! __cp932ext_encmap+1889,138,255},{__cp932ext_encmap+2007,134,134},{0,0,0},{
-! __cp932ext_encmap+2008,89,200},{__cp932ext_encmap+2120,158,178},{
-! __cp932ext_encmap+2141,11,186},{0,0,0},{__cp932ext_encmap+2317,86,236},{
-! __cp932ext_encmap+2468,30,245},{__cp932ext_encmap+2684,39,208},{0,0,0},{
-! __cp932ext_encmap+2854,33,222},{__cp932ext_encmap+3044,93,242},{
-! __cp932ext_encmap+3194,17,152},{__cp932ext_encmap+3330,19,166},{
-! __cp932ext_encmap+3478,245,245},{__cp932ext_encmap+3479,96,206},{
-! __cp932ext_encmap+3590,78,78},{__cp932ext_encmap+3591,0,251},{
-! __cp932ext_encmap+3843,14,192},{__cp932ext_encmap+4022,1,207},{
-! __cp932ext_encmap+4229,104,226},{__cp932ext_encmap+4352,48,228},{
-! __cp932ext_encmap+4533,214,214},{__cp932ext_encmap+4534,63,218},{
-! __cp932ext_encmap+4690,4,252},{__cp932ext_encmap+4939,39,191},{
-! __cp932ext_encmap+5092,136,245},{__cp932ext_encmap+5202,5,187},{
-! __cp932ext_encmap+5385,4,254},{__cp932ext_encmap+5636,177,190},{
-! __cp932ext_encmap+5650,36,245},{__cp932ext_encmap+5860,7,159},{
-! __cp932ext_encmap+6013,1,111},{__cp932ext_encmap+6124,130,166},{
-! __cp932ext_encmap+6161,70,70},{__cp932ext_encmap+6162,33,122},{
-! __cp932ext_encmap+6252,48,155},{__cp932ext_encmap+6360,209,235},{
-! __cp932ext_encmap+6387,158,158},{0,0,0},{__cp932ext_encmap+6388,72,214},{
-! __cp932ext_encmap+6531,82,138},{__cp932ext_encmap+6588,71,161},{0,0,0},{0,0,0
-! },{0,0,0},{__cp932ext_encmap+6679,1,246},{__cp932ext_encmap+6925,72,220},{
-! __cp932ext_encmap+7074,83,176},{0,0,0},{0,0,0},{__cp932ext_encmap+7168,7,245},
-! {__cp932ext_encmap+7407,28,28},{__cp932ext_encmap+7408,18,246},{
-! __cp932ext_encmap+7637,83,127},{__cp932ext_encmap+7682,240,244},{
-! __cp932ext_encmap+7687,18,118},{__cp932ext_encmap+7788,207,207},{0,0,0},{
-! __cp932ext_encmap+7789,103,222},{__cp932ext_encmap+7909,21,238},{
-! __cp932ext_encmap+8127,6,255},{__cp932ext_encmap+8377,2,248},{
-! __cp932ext_encmap+8624,49,72},{__cp932ext_encmap+8648,146,146},{
-! __cp932ext_encmap+8649,157,175},{__cp932ext_encmap+8668,51,85},{
-! __cp932ext_encmap+8703,87,101},{__cp932ext_encmap+8718,39,158},{
-! __cp932ext_encmap+8838,78,220},{__cp932ext_encmap+8981,114,187},{
-! __cp932ext_encmap+9055,0,0},{__cp932ext_encmap+9056,107,112},{
-! __cp932ext_encmap+9062,25,209},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0
-  },{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,
-  0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{
+  __cp932ext_encmap+418,3,205},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{
   0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0
---- 2540,2874 ----
-  __cp932ext_decmap+957,64,75},{0,0,0},{0,0,0},{0,0,0},
-  };
-  
-! static const DBCHAR __cp932ext_encmap[9869] = {
-! 92,N,N,N,N,N,33249,N,N,N,33104,N,N,N,N,N,33738,N,33093,33091,N,N,33250,33116,
-  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,126,34690,N,N,N,N,N,N,N,N,N,N,34692,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,34644,34645,34646,34647,34648,34649,34650,34651,34652,34653,N,N,N,N,N,
-+ N,64064,64065,64066,64067,64068,64069,64070,64071,64072,64073,34708,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,34712,N,N,N,N,N,33121,N,N,N,N,N,N,N,N,34707,N,N,N,N,N,N,N,N,N,
-  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,34713,34624,34625,34626,34627,34628,34629,
-+ 34630,34631,34632,34633,34634,34635,34636,34637,34638,34639,34640,34641,34642,
-+ 34643,34688,N,34689,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,N,33684,34698,34699,N,N,N,N,N,N,34700,N,N,N,N,N,N,N,N,N,N,N,N,
-  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,34693,34694,34695,34696,34697,34661,N,N,N,N,N,
-+ N,N,N,N,34665,N,N,N,N,N,N,34656,N,N,N,34659,N,N,N,N,N,N,N,N,N,34657,34667,N,N,
-+ 34666,34660,N,N,N,34668,N,N,N,N,N,N,N,N,N,N,34662,N,N,N,N,34670,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,34655,34669,N,N,34658,N,N,N,34663,N,N,N,N,N,34664,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,34686,34703,34702,34701,
-+ N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,34674,34675,N,N,N,N,N,N,N,N,N,N,N,N,34671,34672,
-+ 34673,N,N,34677,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,34676,N,N,N,N,N,N,N,N,34691,64104,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+  },{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,
+--- 2561,2829 ----
+  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,34686,34703,34702,34701,N,N,N,
+  N,N,N,N,N,N,N,N,N,N,N,N,34674,34675,N,N,N,N,N,N,N,N,N,N,N,N,34671,34672,34673,
+  N,N,34677,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! 34676,N,N,N,N,N,N,N,N,34691,64104,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,64105,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! 64106,64107,N,N,64108,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64109,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64110,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64112,N,N,N,N,
-! N,N,N,64111,N,64114,N,N,N,N,N,64113,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64097,N,N,N,64115,N,N,N,N,N,
+! N,N,N,N,N,N,64105,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64106,
+! 64107,N,N,64108,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64109,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,64110,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64112,N,N,N,N,N,N,N,
+! 64111,N,64114,N,N,N,N,N,64113,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64097,N,N,N,64115,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,64118,64119,N,N,N,64117,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,64116,N,64122,N,N,N,64120,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64121,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64123,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,64118,64119,N,N,N,64117,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,64116,N,64122,N,N,N,64120,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64121,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64123,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,N,N,N,N,N,64125,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,64124,64126,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64128,N,
+! N,N,N,N,N,N,N,N,N,N,64125,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,64124,64126,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64128,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64129,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,N,N,N,64130,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64131,64132,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,64129,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,64130,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64131,64132,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,64133,N,N,N,N,N,N,N,N,N,64134,N,N,N,N,N,N,N,N,64375,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,64135,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! 64136,64137,N,N,N,N,N,N,64138,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,64139,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,64133,N,N,N,N,N,N,N,N,N,64134,N,N,N,N,N,N,N,N,64375,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,64135,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64136,
+! 64137,N,N,N,N,N,N,64138,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,64139,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,64140,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,64141,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64142,N,
+! N,N,N,64140,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! 64141,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64142,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,64143,64146,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64145,N,N,N,N,N,N,N,N,N,N,N,
-! N,64147,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! 64143,64146,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64145,N,N,N,N,N,N,N,N,N,N,N,N,
+! 64147,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,N,N,64148,64149,64150,N,N,N,N,N,N,N,N,N,N,N,64151,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,64148,64149,64150,N,N,N,N,N,N,N,N,N,N,N,64151,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64152,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64154,64153,64157,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,64158,64159,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64152,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64154,64153,64157,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,64158,64159,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,64160,N,N,N,N,N,N,N,64161,N,64162,N,N,N,N,N,64163,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,64160,N,N,N,N,N,N,N,64161,N,64162,N,N,N,N,N,64163,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64164,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,64164,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! 64165,64166,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64167,N,N,N,
@@ -427,14 +360,14 @@ diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Module
 ! N,N,N,N,N,N,64184,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64103,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64185,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64186,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64187,64188,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64189,N,N,
-+ N,N,64190,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64186,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64187,64188,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64189,N,N,
+! N,N,64190,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,64192,N,N,N,N,N,N,N,N,64191,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64194,
-+ 64195,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64193,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64197,N,
-+ N,N,N,N,N,64196,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,64192,N,N,N,N,N,N,N,N,64191,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64194,
+! 64195,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64193,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64197,N,
+! N,N,N,N,N,64196,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64198,64199,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
@@ -451,7 +384,7 @@ diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Module
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,64218,N,N,N,N,N,N,64219,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,64220,N,N,N,N,N,N,N,N,N,N,N,N,64221,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,64222,64102,64223,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,64222,64102,64223,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64225,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
@@ -464,17 +397,17 @@ diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Module
 ! N,N,N,N,N,N,N,N,N,N,64100,N,N,N,N,N,N,64231,64233,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64235,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64236,64237,N,N,
-+ N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64239,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64238,N,N,N,N,N,N,N,64240,N,N,N,N,N,N,N,
-+ N,N,N,64241,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64236,64237,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64239,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64238,N,N,N,N,N,N,N,64240,N,N,N,N,N,N,N,
+! N,N,N,64241,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64242,N,64243,64244,
 ! 64245,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64246,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,64248,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! 64247,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,64249,64250,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,64249,64250,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,64252,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64251,N,N,N,N,N,N,N,
@@ -488,8 +421,8 @@ diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Module
 ! N,N,N,N,N,N,N,N,N,64330,64331,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64332,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,64333,64334,N,64335,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-+ N,N,N,N,N,N,N,N,N,N,N,64336,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,64333,64334,N,64335,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+! N,N,N,N,N,N,N,N,N,N,N,64336,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64337,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64338,N,N,N,N,N,N,N,
@@ -499,11 +432,11 @@ diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Module
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
   N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64345,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! 64346,64347,N,N,N,N,N,N,N,N,N,N,N,N,64348,64349,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64351,N,N,N,N,N,N,N,N,
-! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
+  N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,64352,N,N,N,N,N,N,N,N,N,N,N,64353,
 ! N,N,N,N,N,N,N,N,64356,N,N,N,64354,N,N,N,N,N,N,N,N,N,N,N,N,64355,N,N,N,N,N,N,N,
 ! N,N,N,N,N,N,N,N,N,N,64358,64357,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,
@@ -618,56 +551,16 @@ diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Module
   };
   
   static const struct unim_index cp932ext_encmap[256] = {
-+ {__cp932ext_encmap+0,165,187},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},
   {0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0
   },{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,
-! 0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{__cp932ext_encmap+23,20,62},{
-! __cp932ext_encmap+66,22,121},{__cp932ext_encmap+166,17,191},{0,0,0},{
-! __cp932ext_encmap+341,96,115},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},
-! {0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{__cp932ext_encmap+361,29,148},{0,0,0
-! },{__cp932ext_encmap+481,49,168},{__cp932ext_encmap+601,3,205},{0,0,0},{0,0,0
-! },{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,
-! 0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{
-! 0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{__cp932ext_encmap+804,40,252},{
-! __cp932ext_encmap+1017,0,255},{__cp932ext_encmap+1273,30,244},{
-! __cp932ext_encmap+1488,74,236},{__cp932ext_encmap+1651,21,219},{
-! __cp932ext_encmap+1850,0,221},{__cp932ext_encmap+2072,138,255},{
-! __cp932ext_encmap+2190,134,134},{0,0,0},{__cp932ext_encmap+2191,89,200},{
-! __cp932ext_encmap+2303,158,178},{__cp932ext_encmap+2324,11,186},{0,0,0},{
-! __cp932ext_encmap+2500,86,236},{__cp932ext_encmap+2651,30,245},{
-! __cp932ext_encmap+2867,39,208},{0,0,0},{__cp932ext_encmap+3037,33,222},{
-! __cp932ext_encmap+3227,93,242},{__cp932ext_encmap+3377,17,152},{
-! __cp932ext_encmap+3513,19,166},{__cp932ext_encmap+3661,245,245},{
-! __cp932ext_encmap+3662,96,206},{__cp932ext_encmap+3773,78,78},{
-! __cp932ext_encmap+3774,0,251},{__cp932ext_encmap+4026,14,192},{
-! __cp932ext_encmap+4205,1,207},{__cp932ext_encmap+4412,104,226},{
-! __cp932ext_encmap+4535,48,228},{__cp932ext_encmap+4716,214,214},{
-! __cp932ext_encmap+4717,63,218},{__cp932ext_encmap+4873,4,252},{
-! __cp932ext_encmap+5122,39,191},{__cp932ext_encmap+5275,136,245},{
-! __cp932ext_encmap+5385,5,187},{__cp932ext_encmap+5568,4,254},{
-! __cp932ext_encmap+5819,177,190},{__cp932ext_encmap+5833,36,245},{
-! __cp932ext_encmap+6043,7,159},{__cp932ext_encmap+6196,1,111},{
-! __cp932ext_encmap+6307,130,166},{__cp932ext_encmap+6344,70,70},{
-! __cp932ext_encmap+6345,33,122},{__cp932ext_encmap+6435,48,155},{
-! __cp932ext_encmap+6543,209,235},{__cp932ext_encmap+6570,158,158},{0,0,0},{
-! __cp932ext_encmap+6571,72,214},{__cp932ext_encmap+6714,82,138},{
-! __cp932ext_encmap+6771,71,161},{0,0,0},{0,0,0},{0,0,0},{
-! __cp932ext_encmap+6862,1,246},{__cp932ext_encmap+7108,72,220},{
-! __cp932ext_encmap+7257,83,176},{0,0,0},{0,0,0},{__cp932ext_encmap+7351,7,245},
-! {__cp932ext_encmap+7590,28,28},{__cp932ext_encmap+7591,18,246},{
-! __cp932ext_encmap+7820,83,127},{__cp932ext_encmap+7865,240,244},{
-! __cp932ext_encmap+7870,18,118},{__cp932ext_encmap+7971,207,207},{0,0,0},{
-! __cp932ext_encmap+7972,103,222},{__cp932ext_encmap+8092,21,238},{
-! __cp932ext_encmap+8310,6,255},{__cp932ext_encmap+8560,2,248},{
-! __cp932ext_encmap+8807,49,72},{__cp932ext_encmap+8831,146,146},{
-! __cp932ext_encmap+8832,157,175},{__cp932ext_encmap+8851,51,85},{
-! __cp932ext_encmap+8886,87,101},{__cp932ext_encmap+8901,39,158},{
-! __cp932ext_encmap+9021,78,220},{__cp932ext_encmap+9164,114,187},{
-! __cp932ext_encmap+9238,0,0},{__cp932ext_encmap+9239,107,112},{
-! __cp932ext_encmap+9245,25,209},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0
-  },{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,
   0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{
+! 0,0,0},{0,0,0},{0,0,0},{0,0,0},{__cp932ext_encmap+0,22,121},{
+! __cp932ext_encmap+100,17,191},{0,0,0},{__cp932ext_encmap+275,96,115},{0,0,0},{
+! 0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0
+! },{__cp932ext_encmap+295,29,31},{0,0,0},{__cp932ext_encmap+298,49,168},{
+  __cp932ext_encmap+418,3,205},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{
   0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0
+  },{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,
 ***************
 *** 2871,2879 ****
   0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0
@@ -679,13 +572,13 @@ diff -c -r Python-2.7a3.orig/Modules/cjkcodecs/mappings_jp.h Python-2.7a3/Module
   };
   
   static const ucs2_t __jisx0213_1_bmp_decmap[2197] = {
---- 2877,2885 ----
+--- 2871,2879 ----
   0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0
   },{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,
   0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{
 ! 0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{
-! __cp932ext_encmap+9430,41,220},{__cp932ext_encmap+9610,14,45},{0,0,0},{0,0,0},
-! {0,0,0},{0,0,0},{__cp932ext_encmap+9642,2,228},
+! __cp932ext_encmap+9247,41,220},{__cp932ext_encmap+9427,14,45},{0,0,0},{0,0,0},
+! {0,0,0},{0,0,0},{__cp932ext_encmap+9459,2,228},
   };
   
   static const ucs2_t __jisx0213_1_bmp_decmap[2197] = {

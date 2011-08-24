@@ -1,5 +1,5 @@
 cp932_roundtrip.tar.bz2:						\
-		Python-2.7a3-cp932-patch*.txt			\
+		Python-2.7.2-cp932-patch*.txt			\
 		UnicodeData.txt							\
 		apr-iconv-1.2.1-cp932-patch*.txt		\
 		cp932_roundtrip.css						\
