@@ -89,7 +89,7 @@ $ ./a.out > <a href="result/cp932_to_utf16-apriconv_1.2.1.txt">result/cp932_to_u
 	</dd>
 	<dt>apr-iconv 1.2.1 + cp932 patch</dt>
 	<dd>
-	    <p>First, install APR and APR-iconv with <a href="apr-iconv-1.2.1-cp932-patch.txt">cp932 patch</a> that created by me.</p>
+	    <p>First, install APR and APR-iconv with <a href="apr-iconv-1.2.1-cp932-patch.txt">cp932 patch</a> created by me.</p>
 	    <pre>$ g++ -I/opt/local/include/apr-1/ -L/opt/local/lib/ -lapriconv-1 -lapr-1 <a href="utf16_to_cp932-apriconv.cpp">utf16_to_cp932-apriconv.cpp</a>
 $ ./a.out > <a href="result/utf16_to_cp932-apriconv_1.2.1+cp932_patch.txt">result/utf16_to_cp932-apriconv_1.2.1+cp932_patch.txt</a>
 $ g++ -I/opt/local/include/apr-1/ -L/opt/local/lib/ -lapriconv-1 -lapr-1 <a href="cp932_to_utf16-apriconv.cpp">cp932_to_utf16-apriconv.cpp</a>
@@ -97,7 +97,7 @@ $ ./a.out > <a href="result/cp932_to_utf16-apriconv_1.2.1+cp932_patch.txt">resul
 	</dd>
 	<dt>apr-iconv 1.2.1 + cp932 patch2</dt>
 	<dd>
-	    <p>First, install APR and APR-iconv with <a href="apr-iconv-1.2.1-cp932-patch2.txt">cp932 patch2</a> that created by me.</p>
+	    <p>First, install APR and APR-iconv with <a href="apr-iconv-1.2.1-cp932-patch2.txt">cp932 patch2</a> created by me.</p>
 	    <pre>$ g++ -I/opt/local/include/apr-1/ -L/opt/local/lib/ -lapriconv-1 -lapr-1 <a href="utf16_to_cp932-apriconv.cpp">utf16_to_cp932-apriconv.cpp</a>
 $ ./a.out > <a href="result/utf16_to_cp932-apriconv_1.2.1+cp932_patch2.txt">result/utf16_to_cp932-apriconv_1.2.1+cp932_patch2.txt</a>
 $ g++ -I/opt/local/include/apr-1/ -L/opt/local/lib/ -lapriconv-1 -lapr-1 <a href="cp932_to_utf16-apriconv.cpp">cp932_to_utf16-apriconv.cpp</a>
@@ -108,20 +108,24 @@ $ ./a.out > <a href="result/cp932_to_utf16-apriconv_1.2.1+cp932_patch2.txt">resu
   <dt>Python</dt>
   <dd>
       <dl>
-	<dt>Python 2.7.2</dt>
+	<dt>Python 2.7.2, 3.2.1</dt>
 	<dd>
-	    <pre>$ python2.7 <a href="utf16_to_cp932.py">utf16_to_cp932.py</a> > <a href="result/utf16_to_cp932-python_2.7.2-osx_10.7.1.txt">result/utf16_to_cp932-python_2.7.2-osx_10.7.1.txt</a>
-$ python2.7 <a href="cp932_to_utf16.py">cp932_to_utf16.py</a> > <a href="result/cp932_to_utf16-python_2.7.2-osx_10.7.1.txt">result/cp932_to_utf16-python_2.7.2-osx_10.7.1.txt</a></pre>
+	    <pre>$ python2.7 <a href="utf16_to_cp932.py2">utf16_to_cp932.py2</a> > <a href="result/utf16_to_cp932-python_2.7.2-osx_10.7.1.txt">result/utf16_to_cp932-python_2.7.2-osx_10.7.1.txt</a>
+$ python3.2 <a href="utf16_to_cp932.py3">utf16_to_cp932.py3</a> > <a href="result/utf16_to_cp932-python_3.2.1-osx_10.7.1.txt">result/utf16_to_cp932-python_3.2.1-osx_10.7.1.txt</a>
+$ python2.7 <a href="cp932_to_utf16.py2">cp932_to_utf16.py2</a> > <a href="result/cp932_to_utf16-python_2.7.2-osx_10.7.1.txt">result/cp932_to_utf16-python_2.7.2-osx_10.7.1.txt</a>
+$ python3.2 <a href="cp932_to_utf16.py3">cp932_to_utf16.py3</a> > <a href="result/cp932_to_utf16-python_3.2.1-osx_10.7.1.txt">result/cp932_to_utf16-python_3.2.1-osx_10.7.1.txt</a></pre>
 	</dd>
-	<dt>Python 2.7.2 + cp932 patch</dt>
+	<dt>Python 2.7.2, 3.2.1 + cp932 patch</dt>
 	<dd>
-	    <p>First, install Python 2.7.2 with <a href="Python-2.7.2-cp932-patch.txt">cp932 patch</a> that created by me.</p>
-	    <pre>$ python2.7 <a href="utf16_to_cp932.py">utf16_to_cp932.py</a> > <a href="result/utf16_to_cp932-python_2.7.2+cp932_patch.txt">result/utf16_to_cp932-python_2.7.2+cp932_patch.txt</a></pre>
+	    <p>First, install Python with <a href="Python-3.2.1-cp932-patch.txt">cp932 patch</a> created by me.</p>
+	    <pre>$ python2.7 <a href="utf16_to_cp932.py2">utf16_to_cp932.py2</a> > <a href="result/utf16_to_cp932-python_2.7.2+cp932_patch.txt">result/utf16_to_cp932-python_2.7.2+cp932_patch.txt</a>
+$ python3.2 <a href="utf16_to_cp932.py3">utf16_to_cp932.py3</a> > <a href="result/utf16_to_cp932-python_3.2.1+cp932_patch.txt">result/utf16_to_cp932-python_3.2.1+cp932_patch.txt</a></pre>
 	</dd>
-	<dt>Python 2.7.2 + cp932 patch2</dt>
+	<dt>Python 2.7.2, 3.2.1 + cp932 patch2</dt>
 	<dd>
-	    <p>First, install Python 2.7.2 with <a href="Python-2.7.2-cp932-patch2.txt">cp932 patch2</a> that created by me.</p>
-	    <pre>$ python2.7 <a href="utf16_to_cp932.py">utf16_to_cp932.py</a> > <a href="result/utf16_to_cp932-python_2.7.2+cp932_patch2.txt">result/utf16_to_cp932-python_2.7.2+cp932_patch2.txt</a></pre>
+	    <p>First, install Python with <a href="Python-3.2.1-cp932-patch2.txt">cp932 patch2</a> created by me.</p>
+	    <pre>$ python2.7 <a href="utf16_to_cp932.py2">utf16_to_cp932.py2</a> > <a href="result/utf16_to_cp932-python_2.7.2+cp932_patch2.txt">result/utf16_to_cp932-python_2.7.2+cp932_patch2.txt</a>
+$ python3.2 <a href="utf16_to_cp932.py3">utf16_to_cp932.py3</a> > <a href="result/utf16_to_cp932-python_3.2.1+cp932_patch2.txt">result/utf16_to_cp932-python_3.2.1+cp932_patch2.txt</a></pre>
 	</dd>
       </dl>
   </dd>

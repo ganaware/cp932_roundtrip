@@ -9,7 +9,8 @@ cp932_roundtrip.tar.bz2:						\
 		cp932_to_utf16.java						\
 		cp932_to_utf16.php						\
 		cp932_to_utf16.pl						\
-		cp932_to_utf16.py						\
+		cp932_to_utf16.py2						\
+		cp932_to_utf16.py3						\
 		cp932_to_utf16.rb						\
 		gen.html								\
 		result/cp932_to_utf16-*.txt				\
@@ -18,7 +19,8 @@ cp932_roundtrip.tar.bz2:						\
 		utf16_to_cp932.java						\
 		utf16_to_cp932.php						\
 		utf16_to_cp932.pl						\
-		utf16_to_cp932.py						\
+		utf16_to_cp932.py2						\
+		utf16_to_cp932.py3						\
 		utf16_to_cp932.rb
 	tar cvjf $@ $^
 
